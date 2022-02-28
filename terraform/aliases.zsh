@@ -1,0 +1,10 @@
+alias tf='terraform $*'
+alias tfp='tf plan $*'
+alias tfa='tf apply $*'
+alias tfaf='tf apply -auto-approve $*'
+alias tfi='tf init $*'
+alias tfiu='tf init -upgrade $*'
+alias tfd='tf destroy $*'
+alias tfdf='tf apply -destroy -auto-approve $*'
+
+alias tfccurl='curl -H"Content-Type: application/vnd.api+json" -H"Authorization: Bearer $TFC_API_TOKEN"'
