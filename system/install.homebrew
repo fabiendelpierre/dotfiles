@@ -2,7 +2,6 @@ coreutils
 curl
 dos2unix
 gawk
-git
 gnu-sed
 gnupg
 httpie
